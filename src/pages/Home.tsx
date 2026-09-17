@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Progress } from '../hooks/useProgress';
-import { questions } from '../data/questions';
-import { lessons } from '../data/lessons';
+import { questions } from '../../questions';
+import { lessons } from '../../lessons';
 
 interface Props {
   progress: Progress;

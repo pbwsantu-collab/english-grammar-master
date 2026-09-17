@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { lessons } from '../data/lessons';
+import { lessons } from '../../lessons';
 
 interface Props {
   lang: 'en' | 'bn';

@@ -1,4 +1,4 @@
-import { memoryFormulas } from '../data/lessons';
+import { memoryFormulas } from '../../lessons';
 
 interface Props {
   lang: 'en' | 'bn';
