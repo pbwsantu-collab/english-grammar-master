@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: '/english-grammar-master/',
+  base: '/preposition-conjunction-/',
   plugins: [
     react(),
     VitePWA({
@@ -17,8 +17,8 @@ export default defineConfig({
         background_color: '#f8fafc',
         display: 'standalone',
         orientation: 'portrait',
-        start_url: '/english-grammar-master/',
-        scope: '/english-grammar-master/',
+        start_url: '/preposition-conjunction-/',
+        scope: '/preposition-conjunction-/',
         icons: [
           {
             src: 'icons/icon-192.png',
