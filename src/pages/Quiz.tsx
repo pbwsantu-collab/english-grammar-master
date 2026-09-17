@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { questions, Question } from '../data/questions';
+import { questions, Question } from '../../questions';
 
 interface Props {
   lang: 'en' | 'bn';

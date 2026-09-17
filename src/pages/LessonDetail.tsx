@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { lessons } from '../data/lessons';
+import { lessons } from '../../lessons';
 import { useEffect } from 'react';
 
 interface Props {

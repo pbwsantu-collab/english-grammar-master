@@ -1,5 +1,5 @@
-import { questions } from '../data/questions';
-import { memoryFormulas } from '../data/lessons';
+import { questions } from '../../questions';
+import { memoryFormulas } from '../../lessons';
 
 interface Props {
   lang: 'en' | 'bn';
